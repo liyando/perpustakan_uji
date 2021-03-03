@@ -149,6 +149,7 @@ if(empty($_SESSION['username'])){
 
                         <div class="card-body">
                             <div class="table-responsive">
+                            <a class="btn btn-success" href="cetakanggota.php">Cetak PDF</a>
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
@@ -250,7 +251,8 @@ if(empty($_SESSION['username'])){
 
     <!-- Page level custom scripts -->
     <script src="js/demo/datatables-demo.js"></script>
-
+    
+<script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.print.min.js"></script>
 </body>
 
 </html>
